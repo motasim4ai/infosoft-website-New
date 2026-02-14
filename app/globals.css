@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #06b6d4;
+  --primary-dark: #0891b2;
+  --primary-light: #22d3ee;
+  --primary-lightest: #67e8f9;
+  --glass-bg: rgba(255, 255, 255, 0.15);
+  --glass-border: rgba(255, 255, 255, 0.25);
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-white text-text-primary font-sans;
+  }
+
+  html[dir="rtl"] body {
+    @apply font-arabic;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
+
+@layer components {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(6, 182, 212, 0.12);
+  }
+
+  .glass-navbar {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 24px rgba(6, 182, 212, 0.08);
+  }
+
+  .glass-button {
+    background: linear-gradient(135deg, rgba(6, 182, 212, 0.8), rgba(34, 211, 238, 0.8));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 16px rgba(6, 182, 212, 0.3);
+    transition: all 0.3s ease;
+  }
+
+  .glass-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(6, 182, 212, 0.4);
+  }
+
+  .gradient-mesh {
+    background: radial-gradient(circle at 20% 50%, rgba(6, 182, 212, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(34, 211, 238, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 40% 20%, rgba(103, 232, 249, 0.1) 0%, transparent 50%);
+  }
+
+  .gradient-mesh-hero {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 1) 100%),
+                radial-gradient(circle at 30% 40%, rgba(6, 182, 212, 0.2) 0%, transparent 60%),
+                radial-gradient(circle at 70% 60%, rgba(34, 211, 238, 0.15) 0%, transparent 60%);
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #06b6d4 0%, #22d3ee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .card-hover {
+    transition: all 0.3s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(6, 182, 212, 0.2);
+  }
+
+  .floating-shape {
+    animation: float 20s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0) rotate(0deg);
+    }
+    25% {
+      transform: translateY(-20px) rotate(5deg);
+    }
+    50% {
+      transform: translateY(-10px) rotate(-5deg);
+    }
+    75% {
+      transform: translateY(-30px) rotate(3deg);
+    }
+  }
+
+  .animate-scroll {
+    animation: scroll 40s linear infinite;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* RTL Support */
+  html[dir="rtl"] .animate-scroll {
+    animation: scroll-rtl 40s linear infinite;
+  }
+
+  @keyframes scroll-rtl {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(50%);
+    }
+  }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .floating-shape,
+    .animate-scroll,
+    .card-hover {
+      animation: none;
+      transition: none;
+    }
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #06b6d4, #22d3ee);
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #0891b2, #06b6d4);
+  }
+}
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+
+  .animation-delay-6000 {
+    animation-delay: 6s;
+  }
+}
