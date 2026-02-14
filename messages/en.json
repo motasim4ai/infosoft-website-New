@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "siteName": "Infosoft | Information & Software Co. Ltd.",
+    "description": "Leading IT solutions provider in Saudi Arabia since 1987. ERP, Accounting, Cloud Services, and more for 5,500+ organizations.",
+    "keywords": "ERP, Accounting Software, Saudi Arabia, IT Solutions, Cloud Services, Infosoft"
+  },
+  "nav": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "products": "Products",
+    "services": "Services",
+    "clients": "Clients",
+    "blog": "Blog",
+    "support": "Support",
+    "contactUs": "Contact Us",
+    "requestDemo": "Request a Demo",
+    "ourStory": "Our Story",
+    "visionMission": "Vision & Mission",
+    "ourTeam": "Our Team",
+    "whyChooseUs": "Why Choose Us"
+  },
+  "hero": {
+    "title": "Empowering Businesses with Smart Technology Since 1987",
+    "subtitle": "Trusted by 5,500+ organizations across Saudi Arabia for innovative IT solutions",
+    "cta1": "Explore Our Products",
+    "cta2": "Request Demo"
+  },
+  "stats": {
+    "years": "Years of Experience",
+    "organizations": "Organizations Served",
+    "products": "Products & Solutions",
+    "branches": "Nationwide Branches"
+  },
+  "whoWeAre": {
+    "title": "Who We Are",
+    "description": "Since 1987, Infosoft has been at the forefront of digital transformation in Saudi Arabia. We specialize in enterprise resource planning, accounting systems, cloud solutions, and comprehensive IT services. Our mission is to empower businesses with cutting-edge technology that drives growth and efficiency.",
+    "cta": "Learn More"
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Comprehensive solutions for every business need",
+    "infosoft13": {
+      "name": "Infosoft 13",
+      "description": "Complete ERP and accounting system with GL, AP/AR, inventory, multi-branch support, and ZATCA e-invoicing"
+    },
+    "motamayezLite": {
+      "name": "Motamayez Lite",
+      "description": "Lightweight accounting solution perfect for SMEs and startups"
+    },
+    "goldManagement": {
+      "name": "Gold Management",
+      "description": "Specialized system for gold and jewelry businesses with live pricing and RFID tracking"
+    },
+    "restaurantCafe": {
+      "name": "Restaurant & Cafe",
+      "description": "Complete POS system with table management, kitchen display, and delivery integration"
+    },
+    "supermarket": {
+      "name": "Supermarket",
+      "description": "Retail POS with barcode scanning, inventory control, and loyalty programs"
+    },
+    "eInvoicing": {
+      "name": "E-Invoicing",
+      "description": "ZATCA Fatoora compliance solution for seamless electronic invoicing"
+    },
+    "mobileApps": {
+      "name": "Mobile Apps",
+      "description": "Mobile inventory, attendance tracking, and gold reporting applications"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "End-to-end IT solutions tailored to your needs",
+    "softwareDevelopment": {
+      "name": "Software Development",
+      "description": "Custom software solutions built to your specifications"
+    },
+    "cloudSolutions": {
+      "name": "Cloud Solutions",
+      "description": "Scalable cloud infrastructure and migration services"
+    },
+    "networking": {
+      "name": "Networking",
+      "description": "Network design, implementation, and maintenance"
+    },
+    "technicalSupport": {
+      "name": "Technical Support",
+      "description": "24/7 expert technical support for all our products"
+    },
+    "hardwareSupply": {
+      "name": "Hardware Supply",
+      "description": "Quality hardware and equipment procurement"
+    },
+    "webDevelopment": {
+      "name": "Web Development",
+      "description": "Modern, responsive websites and web applications"
+    },
+    "training": {
+      "name": "Training",
+      "description": "Comprehensive training programs for your team"
+    }
+  },
+  "whyChoose": {
+    "title": "Why Choose Infosoft",
+    "reason1": {
+      "title": "37+ Years Experience",
+      "description": "Trusted industry leader since 1987"
+    },
+    "reason2": {
+      "title": "5,500+ Happy Clients",
+      "description": "Serving organizations across Saudi Arabia"
+    },
+    "reason3": {
+      "title": "ZATCA Certified",
+      "description": "Fully compliant with e-invoicing regulations"
+    },
+    "reason4": {
+      "title": "24/7 Support",
+      "description": "Round-the-clock technical assistance"
+    },
+    "reason5": {
+      "title": "Nationwide Coverage",
+      "description": "6 branches across the Kingdom"
+    },
+    "reason6": {
+      "title": "Continuous Innovation",
+      "description": "Regular updates and new features"
+    }
+  },
+  "clients": {
+    "title": "Our Clients",
+    "subtitle": "Success Partners",
+    "testimonialsTitle": "What Our Clients Say"
+  },
+  "blog": {
+    "title": "Latest News",
+    "subtitle": "Insights and updates from Infosoft",
+    "readMore": "Read More",
+    "viewAll": "View All"
+  },
+  "cta": {
+    "title": "Ready to Transform Your Business?",
+    "subtitle": "Let us help you achieve your digital transformation goals",
+    "button": "Get Started Today"
+  },
+  "footer": {
+    "tagline": "Empowering businesses with innovative IT solutions since 1987",
+    "quickLinks": "Quick Links",
+    "ourProducts": "Our Products",
+    "newsletter": "Newsletter",
+    "newsletterText": "Subscribe to get the latest updates and offers",
+    "subscribe": "Subscribe",
+    "phone": "Unified Number",
+    "email": "Email",
+    "copyright": "© 2025 Infosoft - Information & Software Co. Ltd. All Rights Reserved.",
+    "followUs": "Follow Us"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team",
+    "formTitle": "Send us a message",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "company": "Company Name",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send Message",
+    "jeddahOffice": "Jeddah Head Office",
+    "riyadhBranch": "Riyadh Branch",
+    "madinahBranch": "Madinah Branch",
+    "businessHours": "Business Hours",
+    "saturdayToThursday": "Saturday to Thursday: 9:00 AM - 6:00 PM"
+  },
+  "demo": {
+    "title": "Request a Demo",
+    "subtitle": "See our solutions in action",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "company": "Company Name",
+    "companySize": "Company Size",
+    "industry": "Industry",
+    "productInterest": "Product of Interest",
+    "preferredDate": "Preferred Date",
+    "notes": "Additional Notes",
+    "submit": "Schedule My Demo"
+  },
+  "support": {
+    "title": "Support Center",
+    "subtitle": "We're here to help",
+    "searchPlaceholder": "Search for help...",
+    "faq": "FAQ",
+    "knowledgeBase": "Knowledge Base",
+    "downloads": "Downloads",
+    "remoteSupport": "Remote Support"
+  },
+  "about": {
+    "title": "About Infosoft",
+    "subtitle": "Leading IT solutions provider in Saudi Arabia since 1987",
+    "ourStory": "Our Story",
+    "storyText": "Founded in 1987 in Jeddah, Infosoft has grown to become one of Saudi Arabia's most trusted IT solution providers. With over three decades of experience, we have successfully served more than 5,500 organizations across various industries.",
+    "vision": "Vision",
+    "visionText": "To be the leading provider of innovative IT solutions in the Middle East, empowering businesses to achieve their full potential through digital transformation.",
+    "mission": "Mission",
+    "missionText": "To deliver world-class IT solutions that drive business growth, enhance operational efficiency, and create lasting value for our clients.",
+    "timeline": "Our Journey"
+  },
+  "legal": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "loading": "Loading...",
+    "search": "Search",
+    "filter": "Filter",
+    "all": "All",
+    "close": "Close",
+    "menu": "Menu",
+    "language": "Language"
+  }
+}
