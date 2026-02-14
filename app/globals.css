@@ -14,10 +14,6 @@
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
-  
   body {
     @apply bg-white text-text-primary font-sans;
   }

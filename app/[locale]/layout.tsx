@@ -1,4 +1,3 @@
-import { Inter } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
@@ -7,11 +6,7 @@ import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import '@/app/globals.css';
 
-const inter = Inter({ 
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
-});
+export const dynamic = 'force-dynamic';
 
 export const metadata = {
   title: 'Infosoft | Information & Software Co. Ltd.',
@@ -37,7 +32,7 @@ export default async function LocaleLayout({
   const dir = locale === 'ar' ? 'rtl' : 'ltr';
 
   return (
-    <html lang={locale} dir={dir} className={inter.variable}>
+    <html lang={locale} dir={dir}>
       <body>
         <NextIntlClientProvider messages={messages}>
           <Navbar />
